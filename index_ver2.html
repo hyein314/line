@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무료 통화메시지 앱 LINE</title>
+    <link rel="shortcut icon" href="./images/line_icon_fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style_ver2.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/javascript_ver2.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="line-header-container">
+                <h1 class="logo"><a href="#">LINE</a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#">무료 메세지</a></li>
+                        <li><a href="#">무료 통화</a></li>
+                        <li><a href="#">LINE 스티커</a></li>
+                        <li><a href="#">LINE 공유</a></li>
+                        <li><a href="#">LINE 꿀팁</a></li>
+                        <li><a href="#">그 외 기능</a></li>
+                    </ul>
+                </nav>
+                <form action="#" name="frmLang" method="POST">
+                    <fieldset>
+                        <legend>주 언어 선택</legend>
+                        <label class="sr-only" for="lang">언어</label>
+                        <input type="text" id="lang" name="lang" disabled value="한국어" />
+                        <ul class="langList">
+                            <li><a href="#">日本語</a></li>
+                            <li class="on"><a href="#">한국어</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">中文(繁體)</a></li>
+                            <li><a href="#">ภาษาไทย</a></li>
+                            <li><a href="#">Bahasa Indonesia</a></li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </header>
+        <hr />
+        <section>
+            <h2 class="sr-only">LINE의 다양한 기능</h2>
+            <div class="line-section-visual">
+                <h3 class="sr-only">LINE의 주요 기능</h3>
+                <ul class="line-section-visual-bnr">
+                    <li>
+                        <p class="sr-only">
+                            <strong>CLOSING THE DISTANCE</strong><br />
+                            LINE을 통해 사람과 사람, 사람과 서비스, 사람과 정보가 더 가까워집니다.
+                        </p>
+                        <a href="#" target="_blank">다운로드</a>
+                    </li>
+                    <li>
+                        <p class="sr-only">
+                            <strong>LINE RANGERS</strong><br />
+                            귀여운 라인캐릭터와 함께하는 샐리구하기 대작전! 외계군단으로부터 마을과 샐리를 구해주세요!
+                        </p>
+                        <a href="#" target="_blank">Android</a>
+                        <a href="#" target="_blank">iOS</a>
+                    </li>
+                    <li>
+                        <p class="sr-only">
+                            <strong>친구들과 함께 즐기는 세계 최대 아바타 SNS 라인 플레이!</strong><br />
+                            나와 똑 닮은 아바타를 만들어 나만의 프로필 사진으로 설정하고 나의 개성을 표현하는 다양한 아이템으로 패션, 인테리어를 꾸며보세요
+                        </p>
+                        <a href="#" target="_blank">Android</a>
+                        <a href="#" target="_blank">iOS</a>    
+                    </li>
+                    <li>
+                        <p class="sr-only">
+                            <strong>LINE 아이쳄을 다양한 결제 방법으로 구매할 수 있는 LINE STORE</strong><br />
+                            최신 아이템과 함께 이벤트 혜택도 받아보세요!
+                        </p>
+                        <a href="#" target="_blank">LINE STORE</a>
+                    </li>
+                </ul>
+                <ol class="line-section-visual-pagination">
+                    <li class="on"><a href="#">CLOSING THE DISTANCE</a></li>
+                    <li><a href="#">LINE RANGERS</a></li>
+                    <li><a href="#">아바타 SNS 라인 플레이</a></li>
+                    <li><a href="#">LINE STORE</a></li>
+                </ol>
+            </div>
+            <div class="line-section-content">
+                <div class="line-section-content-main">
+                    <ul>
+                        <li>
+                            <span class="line-section-content-main-pht"><img src="./images/line_img_cot_01.png" alt="언제 어디서나 무료 메세지"></span>
+                            <div class="line-section-content-main-container">
+                                <h3 class="line-section-content-main-container-tit">언제 어디서나<span>무료 메시지</span></h3>
+                                <p class="line-section-content-main-container-cont">
+                                    언제 어디서나 빠르고 간편하게 친구들과 무료 메시지를
+                                    <span>나눠보세요. 1:1은 물론 그룹 대화도 가능합니다.</span>
+                                    아이폰과 안드로이드, 윈도우폰, 블랙베리, 노키아폰 등의
+                                    <span>스마트폰 뿐만 아니라 PC에서도 즐길 수 있습니다.</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="line-section-content-main-pht"><img src="./images/line_img_cot_02.png" alt="무료 영상/음성 통화"></span>
+                            <div class="line-section-content-main-container">
+                                <h3 class="line-section-content-main-container-tit">무료 <span>영상/음성 통화</span></h3>
+                                <p class="line-section-content-main-container-cont">
+                                    아무리 멀리 떨어져 있는 친구라도 LINE만 있으면 <span>실시간 영상/음성통화가 무료!</span>듣고 싶은 목소리, 보고 싶은 얼굴이 있다면 망설이지 마세요. <br />
+                                    <span>현재 iPhone, Android 폰, Windows Phone, iPad, </span>PC(Windows/macOS) 및 LINE Lite(Android에서 제공) <span>에서 이용할 수 있습니다.</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="line-section-content-main-pht"><img src="./images/line_img_cot_03.png" alt="LINE 스티커"></span>
+                            <div class="line-section-content-main-container">
+                                <h3 class="line-section-content-main-container-tit">대화가 더욱 <span>즐거워지는 </span>LINE 스티커</h3>
+                                <p class="line-section-content-main-container-cont">
+                                    10,000개가 넘는 스티커와 이모티콘으로
+                                    <span>미묘한 감정까지 섬세하게 표현해 보세요.</span>
+                                    LINE 스티커로 대화가 더 즐거워집니다.
+                                    <span>스티커샵에서는 재기 발랄한 LINE 오리지널 캐릭터뿐만 아니라</span>
+                                    전 세계 유명 캐릭터 스티커까지 모두 만나볼 수 있습니다.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="line-section-content-main-pht"><img src="./images/line_img_cot_04.png" alt="LINE 공유기능"></span>
+                            <div class="line-section-content-main-container">
+                                <h3 class="line-section-content-main-container-tit">사진/동영상<span>공유에서 </span>음성 메시지까지</h3>
+                                <p class="line-section-content-main-container-cont">
+                                    사진, 동영상 공유는 물론 음성 메시지와 연락처, 
+                                    <span>위치 정보 전송까지! </span>
+                                    LINE이라면 친구와 쉽고 빠르게 공유할 수 있습니다.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="line-section-content-main-pht"><img src="./images/line_img_cot_05.png" alt="생활꿀팁"></span>
+                            <div class="line-section-content-main-container">
+                                <h3 class="line-section-content-main-container-tit">다양한 <span>생활 꿀팁과 </span>유용한 <span>기능이 가득</span>
+                                </h3>
+                                <p class="line-section-content-main-container-cont">
+                                    날씨 친구, 재해 속보에서 통역까지!
+                                    <span>스마트한 LINE 하나면 일상이 더욱 즐거워져요.</span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="line-section-content-sub">
+                    <ol>
+                        <li>
+                            <span class="line-section-content-sub-pht">
+                                <img src="./images/line_img_cotSub_01.png" alt="타임라인">
+                            </span>
+                            <h4 class="line-section-content-sub-tit">타임라인<a href="#">이동</a></h4>
+                            
+                            <p class="line-section-content-sub-cont">
+                                친구들끼리만 공유하고 싶다면 타임라인에 <span>올려보세요. 텍스트, 사진, 동영상, 스티커로 </span>내 소식을 공유하고 친구의 소식도 <span>확인할 수 있습니다.</span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="line-section-content-sub-pht">
+                                <img src="./images/line_img_cotSub_02.png" alt="keep">
+                            </span>
+                            <h4 class="line-section-content-sub-tit">Keep</h4>
+                            <p class="line-section-content-sub-cont">
+                                보관하고 싶었던 메세지, 사진, 동영상 등을 <span>이제 Keep에 보관하세요. </span>필요할 때 쉽게 찾아보고 친구들에게도 <span>간편하게 공유할 수 있습니다.</span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="line-section-content-sub-pht">
+                                <img src="./images/line_img_cotSub_03.png" alt="Live">
+                            </span>
+                            <h4 class="line-section-content-sub-tit">Live</h4>
+                            <p class="line-section-content-sub-cont">
+                                우리 아이 첫 걸음마에서 신나는 콘서트, <span>즐거운 모임까지, 혼자만 즐기기 아쉬운 순간들을 </span>대화방에서 실시간 영상으로 공유해 보세요.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="line-section-content-sub-pht">
+                                <img src="./images/line_img_cotSub_04-1.png" alt="페이스 이펙트">
+                            </span>
+                            <h4 class="line-section-content-sub-tit">페이스 이펙트</h4>
+                            <p class="line-section-content-sub-cont">
+                                상상도 못 한 대변신! <span>대화방, 타임라인 등에서 다양한 페이스 </span>이펙트를 사용해 보세요. <span>깜찍 유쾌 발랄한 화면 효과로 </span>더욱 즐겁게 소통할 수 있어요.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="line-section-content-sub-pht">
+                                <img src="./images/line_img_cotSub_05-1.png" alt="LINE 아바타">
+                            </span>
+                            <h4 class="line-section-content-sub-tit">LINE 아바타</h4>
+                            <p class="line-section-content-sub-cont">
+                                재미있는 표정부터 트렌디한 의상까지! <span>원하는 모습 그대로를 내 아바타로 표현해 보세요. </span>멋지게 꾸민 아바타는 프로필, 타임라인, <span>LINE 앱 카메라 등에서 사용할 수 있어요.</span>
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <footer>
+            <div class="line-footer-content">
+                <nav class="line-footer-content-fnb">
+                    <ul>
+                        <li><a href="#">도움말</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">LINE Social Plugins</a></li>
+                        <li><a href="#">LINE Creators Market</a></li>
+                        <li><a href="#">LINE 사용가이드</a></li>
+                        <li><a href="#">LINE Partners</a></li>
+                        <li><a href="#">LINE 블로그</a></li>
+                        <li><a href="#">채용정보</a></li>
+                    </ul>
+                </nav>
+                <p class="line-footer-content-social">
+                    <a href="#">youtube</a>
+                    <a href="#">facebook</a>
+                </p>
+                <address>&copy; LINE Coporation | Renewed by Hyein Lee</address>        
+                <a href="#" class="validator">HTML5 DTD 유효성 검사 통과</a>
+                <a href="#" class="wa">국가공인 웹 접근성 품질인증 마크 획득</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
